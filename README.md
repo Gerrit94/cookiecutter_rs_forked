@@ -5,13 +5,15 @@ A boilerplate for reproducible and transparent science with close resemblances t
 
 Requirements
 ------------
-Install `cookiecutter` command line: `pip install cookiecutter`    
+Install `cookiecutter` command line: `pixi install cookiecutter jinja2-time`    
+
+(At the time of writing (2024-03-06), cookiecutter didn't automatically install a dependency jinja2-time. Therefore this package has to be added manually.)
 
 Usage
 -----
 To start a new science project:
 
-`cookiecutter gh:mkrapp/cookiecutter-reproducible-science`
+`cookiecutter gh:Gerrit94/cookiecutter_rs_forked`
 
 Project Structure
 -----------------
@@ -39,8 +41,6 @@ Project Structure
     ├── tools          <- Any helper scripts go here
     └── visualization  <- Scripts for visualisation of your results, e.g., matplotlib, ggplot2 related.
 ```
-
-Check out my latest research project, which successfully applied the `cookiecutter` philosophy: [SEMIC: an efficient surface energy and mass balance model applied to the Greenland ice sheet](https://gitlab.pik-potsdam.de/krapp/semic-project).
 
 License
 -------
